@@ -1,0 +1,14 @@
+#container1 {
+background-color:yellow;
+}
+#container2
+{
+    background-color:orange;
+}
+.one,.two
+{
+    display:block;
+    width:49%;
+    border:1px solid;
+    height:30px;
+}

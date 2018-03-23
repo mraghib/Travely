@@ -1,0 +1,64 @@
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    /*  background: #e0e0e0;
+      width: 1px;
+      min-height: 10px;
+      margin-top: 105px;*/
+    min-height: 25px;
+    content: "";
+    display:block;
+    top:0;
+    bottom: 0;
+    right: 0;
+}
+
+input[type="date"] {
+     height: 35px;
+     width: 200px;
+     border-left-color:orange;
+     border-left-width: thick;
+     margin-right: 20px;
+}
+.sec_nav{
+height: 120px;
+margin-top: 60px;
+width: auto;
+top:0;
+  bottom: 0;
+  right: 0;
+background-color: white;
+text-align: center;
+color: black;
+}
+.nav_block{
+	height: 120px;
+	width: auto;
+	margin-left: 0;
+	text-align: center;
+	position: relative;
+	padding: 0;
+
+}
+
+#hotelDetail
+{
+	 position: relative;
+	 top: 50px;
+	 left:25px;
+}
+.checkboxStyle
+{
+    font-size : 6px;
+}
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+}
+
+.star-rating .fa-star{color: yellow;}
+
+.my-class
+{
+    background-color:#b3d7ff;
+}
+
